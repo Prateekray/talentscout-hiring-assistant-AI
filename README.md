@@ -191,9 +191,9 @@ MIT License
 ## 👨‍💻 Author
 
 **[Prateek Ray]**
-- GitHub: (https://github.com/Prateekray)
-- LinkedIn: (https://www.linkedin.com/in/prateek-ray-812474204/)
-- Email:prateekray534@gmail.com
+- GitHub: https://github.com/Prateekray
+- LinkedIn: https://www.linkedin.com/in/prateek-ray-812474204/
+- Email: prateekray534@gmail.com
 
 ---
 
