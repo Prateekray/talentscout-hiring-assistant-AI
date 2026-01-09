@@ -11,7 +11,7 @@ An AI-powered chatbot for conducting initial candidate screenings with technical
 
 ## 🎥 Demo Links
 
-- **🎬 Video Walkthrough:** [Watch on Loom](YOUR_LOOM_LINK_HERE)
+- **🎬 Video Walkthrough:** [Watch on Loom](https://www.loom.com/share/f85506313c254275906a03456d6ed224)
 - **🚀 Live Application:** [Try it on Streamlit Cloud](https://talentscout-hiring-assistant-ai-id2fnzq8nkrygh75hlbklo.streamlit.app/)
 - **💻 Source Code:** [GitHub Repository](https://github.com/Prateekray/talentscout-hiring-assistant-AI)
 
