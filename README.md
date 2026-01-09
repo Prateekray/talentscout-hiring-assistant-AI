@@ -36,16 +36,16 @@ The application follows a modular architecture separating UI, Logic, and Data.
 
 ```mermaid
 graph TD
-    A[User Input] --> B[Input Validator]
-    B --> C{Validation Pass?}
-    C -- No --> D[Error Feedback]
-    C -- Yes --> E[Sentiment Analyzer]
-    E --> F[Prompt Engineer]
-    F --> G[Groq API Client]
-    G --> H[Llama 3.1-70b]
-    H --> I[Context Manager]
-    I --> J[Streamlit UI]
-    J --> K[Data Handler / JSON Storage]
+    A["User Input"] --> B["Input Validator"]
+    B --> C{"Validation Pass?"}
+    C -- No --> D["Error Feedback"]
+    C -- Yes --> E["Sentiment Analyzer"]
+    E --> F["Prompt Engineer"]
+    F --> G["Groq API Client"]
+    G --> H["Llama 3.1-70b"]
+    H --> I["Context Manager"]
+    I --> J["Streamlit UI"]
+    J --> K["Data Handler / JSON Storage"]
 Technology StackComponentTechnologyPurposeLLM EngineGroq (Llama 3.1-70b)Ultra-low latency inference (<2s responses)FrontendStreamlit v1.31.0Interactive Chat UI and State ManagementNLPTextBlobSentiment Polarity & Subjectivity AnalysisValidationRegex & PythonData integrity for candidate detailsStorageJSON/PandasAtomic data persistence and CSV export🚀 Installation & SetupPrerequisitesPython 3.10+Groq API Key1. Clone the RepositoryBashgit clone [https://github.com/Prateekray/talentscout-hiring-assistant-AI.git](https://github.com/Prateekray/talentscout-hiring-assistant-AI.git)
 cd talentscout-hiring-assistant-AI
 2. Create Virtual EnvironmentBash# Windows
